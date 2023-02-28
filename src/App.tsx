@@ -6,9 +6,10 @@ const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 
 function App() {
+  console.log('PUBLIC_URL =', process.env.PUBLIC_URL)
   return (
     <div className="App">
-      <BrowserRouter basename='/ghpagereact'>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <nav>
         <ul>
           <li>
