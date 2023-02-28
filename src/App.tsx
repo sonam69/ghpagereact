@@ -6,7 +6,7 @@ const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 
 function App() {
-  console.log('woot');
+  console.log('woot2');
   console.log('PUBLIC_URL=', process.env.PUBLIC_URL);
   return (
     <div className="App">
