@@ -8,7 +8,7 @@ const About = lazy(() => import("./pages/About"));
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/ghpagereact'>
       <nav>
         <ul>
           <li>
